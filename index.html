@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <!-- FONT -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER DESIGN -->
+
+     <header class="header">
+
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#services">Skills</a>
+
+            <a href="#portfolio">Portfolio</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+     </header>
+
+ 
+
+    <!-- HOME SECTION DESIGN -->
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+            <h3>Hi, Myself</h3>
+
+            <h1>Priyanka Panda</h1>
+
+            <h3>And I am an <span>Associate Software Engineer</span></h3>
+
+            <p>An analytical thinker with a passion for problem-solving and efficiency, I am very curious, adaptable, and always eager to learn</p>
+
+            <div class="social-media">
+
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="home-img">
+
+            <img src="./images/Profile.jpg" alt="">
+
+        </div>
+
+    </section>
+
+ 
+
+    <!-- ABOUT SECTION DESIGN -->
+
+     <section class="about" id="about">
+
+        <div class="about-img">
+
+            <img src="./images/TechMahindra.jpg" alt="">
+
+        </div>
+
+        <div class="about-content">
+
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+
+            <h3>Associate Software Engineer</h3>
+
+            <p>I am a recent graduate in the stream of Electronics and Communication Engineering from Andhra University.Now I am working as an Associate Software Engineer in the Tech Mahindra Pvt Ltd. I have a strong foundation in Programming Languages like Java, Python, HTML, CSS. I am very quick to adapt to new environments and always ready for growth.</p>
+
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+     </section>
+
+ 
+
+    <!-- SERVICES SECTION DESIGN -->
+
+     <section class="services" id="services">
+
+        <h2 class="heading">My <span>Services</span></h2>
+
+ 
+
+        <div class="services-container">
+
+            <div class="services-box">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>Web Development</h3>
+
+                <p>I can design and build responsive, user-centred websites.From front-end design to back-end functionality, I work to ensure a seamless and engaging user experience.</p>
+
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+
+            <div class="services-box">
+
+                <i class="fa-brands fa-java"></i>
+
+                <h3>java Developer</h3>
+
+                <p>I am skilled in object-oriented programming and have a solid understanding of Java's frameworks and libraries, which I use to create efficient, maintainable code.</p>
+
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+
+            <div class="services-box">
+
+                <i class="fa-brands fa-python"></i>
+
+                <h3>Python Coder</h3>
+
+                <p>I enjoy leveraging Python's powerful libraries for data processing, automation, and scripting, as well as working with frameworks like Django and Flask for web development projects</p>
+
+                <a href="#" class="btn">Read More</a>
+
+            </div>    
+
+        </div>
+
+     </section>
+
+ 
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+
+     <section class="portfolio" id="portfolio">
+
+        <h2 class="heading">Latest <span>Projects</span></h2>        
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+
+                <img src="./images/IOT.jpg" alt="">
+
+                <div class="portfolio-layer">
+
+                    <h4>Smart Saline Level</h4>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, est?</p>
+
+                    <i class="fa-solid fa-up-right-from-square"></i>
+
+                </div>
+
+            </div>    
+
+            <div class="portfolio-box">
+
+                <img src="./images/WebDevelopment.jpg" alt="">
+
+                <div class="portfolio-layer">
+
+                    <h4>Food WebPage</h4>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, est?</p>
+
+                    <i class="fa-solid fa-up-right-from-square"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+     </section>
+
+ 
+
+    <!-- CONTATCT SECTION DESIGN -->
+
+     <section class="contact" id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+ 
+
+        <form action="#">
+
+            <div class="input-box">
+
+                <input type="text" placeholder="Full Name">
+
+                <input type="email" placeholder="Email Address">
+
+            </div>
+
+            <div class="input-box">
+
+                <input type="number" placeholder="Mobile Number">
+
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+
+     </section>
+
+     
+
+    <!-- FOOTER DESIGN -->
+
+     <footer class="footer">
+
+        <div class="footer-text">
+
+            <p>Copyright &copy; 2024 by @priyankapanda | All Rights Reserved</p>
+
+        </div>
+
+        <div class="footer-iconTop">
+
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
+        </div>
+
+     </footer>
+
+ 
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
+
+ 
